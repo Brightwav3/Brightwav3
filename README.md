@@ -20,7 +20,7 @@
 | Project | What it is |
 | --- | --- |
 | **[semantic-backlinks](https://github.com/Brightwav3/semantic-backlinks)** | Obsidian plugin — inline link suggestions and a related-notes panel powered by local Ollama / LM Studio embeddings or the OpenAI API. |
-| **[clipping-note](https://github.com/Brightwav3/clipping-note)** | Obsidian plugin — one-click clipping notes from a template, straight from the ribbon. |
+| **[Invoicee](https://github.com/Brightwav3/invoicee)** | Czech invoicing app prototype — marketing site + browser invoice editor |
 | **[liquid-metal-effect](https://github.com/Brightwav3/liquid-metal-effect)** | WebGL liquid-metal ring animation — full implementation plus an AI prompt guide. |
 | **[personal-portfolio](https://github.com/Brightwav3/personal-portfolio)** | A noir, literary portfolio site (deployed on Vercel). |
 | **[Coding-Agent-Theme](https://github.com/Brightwav3/Coding-Agent-Theme)** | A custom theme for coding-agent interfaces. |
