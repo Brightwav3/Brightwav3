@@ -1,48 +1,79 @@
 <h1 align="center">Brightwave</h1>
 
 <p align="center">
-  Building tools for thought, expressive frontends, and AI-assisted workflows.
+Building developer tools, local-first software, and systems designed to be automated.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white" alt="WebGL" />
-  <img src="https://img.shields.io/badge/Obsidian-7C3AED?style=flat-square&logo=obsidian&logoColor=white" alt="Obsidian" />
-  <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white" />
+  <img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" />
 </p>
 
 ---
 
-### Featured work
+## About
 
-| Project | What it is |
+I'm interested in building software that stays simple as it grows.
+
+Most of my work revolves around developer tools, document processing, local AI, expressive frontends, and backend architectures that can power multiple clients—from desktop applications to automation and AI agents.
+
+I enjoy building systems that outlive their first interface.
+
+---
+
+## Featured Projects
+
+| Project | Description |
 | --- | --- |
-| **[semantic-backlinks](https://github.com/Brightwav3/semantic-backlinks)** | Obsidian plugin — inline link suggestions and a related-notes panel powered by local Ollama / LM Studio embeddings or the OpenAI API. |
-| **[Invoicee](https://github.com/Brightwav3/invoicee)** | Czech invoicing app prototype — marketing site + browser invoice editor |
-| **[liquid-metal-effect](https://github.com/Brightwav3/liquid-metal-effect)** | WebGL liquid-metal ring animation — full implementation plus an AI prompt guide. |
-| **[personal-portfolio](https://github.com/Brightwav3/personal-portfolio)** | A noir, literary portfolio site (deployed on Vercel). |
+| **FreeDF** *(in development)* | A local-first PDF engine built around immutable operations, stable contracts, and equivalent Python, HTTP, and JSON interfaces. |
+| **One Tool** *(in development)* | A desktop workspace for document conversion and editing designed around reusable backend services and agent-friendly automation. |
+| **[semantic-backlinks](https://github.com/Brightwav3/semantic-backlinks)** | Obsidian plugin for semantic note linking using local embeddings (Ollama / LM Studio) or the OpenAI API. |
+| **[liquid-metal-effect](https://github.com/Brightwav3/liquid-metal-effect)** | A WebGL liquid-metal rendering experiment with a complete implementation and technical documentation. |
+| **[Invoicee](https://github.com/Brightwav3/invoicee)** | Prototype Czech invoicing application featuring a browser-based invoice editor. |
+| **[personal-portfolio](https://github.com/Brightwav3/personal-portfolio)** | A literary-inspired portfolio focused on interaction, animation, and visual storytelling. |
 | **[Coding-Agent-Theme](https://github.com/Brightwav3/Coding-Agent-Theme)** | A custom theme for coding-agent interfaces. |
 
 ---
 
-### Stats
+## Interests
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Brightwav3&show_icons=true&hide_border=true&count_private=false&theme=github_dark&icon_color=7C3AED&title_color=7C3AED" alt="GitHub stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Brightwav3&layout=compact&hide_border=true&theme=github_dark&title_color=7C3AED" alt="Top languages" height="165" />
-</p>
+- Developer tools
+- Local-first software
+- AI infrastructure
+- Document processing
+- Rendering & graphics
+- Electron applications
+- Automation & MCP
+- API design
+- Software architecture
 
 ---
 
-### Links
+## Current Focus
+
+- Building **FreeDF**, a reusable PDF engine.
+- Developing **One Tool**, a desktop platform for file conversion and editing.
+- Designing software where graphical interfaces, APIs, automation, and AI all share the same core.
+
+---
+
+## Philosophy
+
+> Build systems that become easier to extend over time, not harder.
+
+Good architecture should make the next interface cheaper to build than the previous one.
+
+---
 
 <p align="center">
   <a href="mailto:simon.zelenkovi@gmail.com">
-    <img src="https://img.shields.io/badge/Email-181717?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-181717?style=flat-square&logo=gmail&logoColor=white" />
   </a>
-  <a href="https://github.com/Brightwav3/personal-portfolio">
-    <img src="https://img.shields.io/badge/Portfolio-181717?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" />
+  <a href="https://brightwav3.github.io/personal-portfolio/">
+    <img src="https://img.shields.io/badge/Portfolio-181717?style=flat-square&logo=vercel&logoColor=white" />
   </a>
 </p>
