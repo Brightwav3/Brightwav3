@@ -39,19 +39,15 @@ I enjoy building systems that outlive their first interface.
 
 ---
 
-## Stats
+## At a Glance
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Brightwav3&theme=github-dark-blue&hide_border=true" height="170"/>
+  <img src="https://streak-stats.demolab.com?user=Brightwav3&theme=github-dark&hide_border=true" height="170" alt="GitHub Streak"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Brightwav3&layout=compact&hide_border=true&theme=github_dark&title_color=7C3AED&langs_count=8" height="170" alt="Top Languages"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Brightwav3&layout=compact&hide_border=true&theme=github_dark&title_color=7C3AED" height="165"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Brightwav3&repo=semantic-backlinks&theme=github_dark&hide_border=true"/>
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Brightwav3&repo=liquid-metal-effect&theme=github_dark&hide_border=true"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Brightwav3&theme=github_dark" width="100%" alt="Contribution Graph"/>
 </p>
 
 ---
