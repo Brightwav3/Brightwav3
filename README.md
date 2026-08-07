@@ -43,7 +43,7 @@ I enjoy building systems that outlive their first interface.
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Brightwav3&theme=github-dark&hide_border=true" height="170" alt="GitHub Streak"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Brightwav3&layout=compact&hide_border=true&theme=github_dark&title_color=7C3AED&langs_count=8" height="170" alt="Top Languages"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Brightwav3&theme=github_dark" height="170" alt="Languages by Repository"/>
 </p>
 
 <p align="center">
