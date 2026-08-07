@@ -39,6 +39,23 @@ I enjoy building systems that outlive their first interface.
 
 ---
 
+## Stats
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Brightwav3&theme=github-dark-blue&hide_border=true" height="170"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Brightwav3&layout=compact&hide_border=true&theme=github_dark&title_color=7C3AED" height="165"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Brightwav3&repo=semantic-backlinks&theme=github_dark&hide_border=true"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Brightwav3&repo=liquid-metal-effect&theme=github_dark&hide_border=true"/>
+</p>
+
+---
+
 ## Interests
 
 - Developer tools
