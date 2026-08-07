@@ -32,8 +32,8 @@ I enjoy building systems that outlive their first interface.
 
 | Project | Description |
 | --- | --- |
-| **FreeDF** *(in development)* | A local-first PDF engine built around immutable operations, stable contracts, and equivalent Python, HTTP, and JSON interfaces. |
-| **One Tool** *(in development)* | A desktop workspace for document conversion and editing designed around reusable backend services and agent-friendly automation. |
+| **[FreeDF](https://github.com/Brightwav3/custom-pdf-engine)** *(in development)* | A local-first PDF engine built around immutable operations, stable contracts, and equivalent Python, HTTP, and JSON interfaces. |
+| **[One Tool](https://github.com/Brightwav3/One-tool-to-rule-them-all)** *(in development)* | A desktop workspace for document conversion and editing designed around reusable backend services and agent-friendly automation. |
 | **[semantic-backlinks](https://github.com/Brightwav3/semantic-backlinks)** | Obsidian plugin for semantic note linking using local embeddings (Ollama / LM Studio) or the OpenAI API. |
 | **[liquid-metal-effect](https://github.com/Brightwav3/liquid-metal-effect)** | A WebGL liquid-metal rendering experiment with a complete implementation and technical documentation. |
 | **[Invoicee](https://github.com/Brightwav3/invoicee)** | Prototype Czech invoicing application featuring a browser-based invoice editor. |
