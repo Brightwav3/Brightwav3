@@ -106,7 +106,7 @@ Good architecture should make the next interface cheaper to build than the previ
   <a href="mailto:simon.zelenkovi@gmail.com">
     <img src="https://img.shields.io/badge/Email-181717?style=flat-square&logo=gmail&logoColor=white" />
   </a>
-  <a href="https://brightwav3.github.io/personal-portfolio/">
+  <a href="https://simzel.eu/">
     <img src="https://img.shields.io/badge/Portfolio-181717?style=flat-square&logo=vercel&logoColor=white" />
   </a>
 </p>
