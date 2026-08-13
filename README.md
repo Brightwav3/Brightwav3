@@ -16,7 +16,14 @@
 ---
 
 <h2 align="center">About</h2>
-<p align="center"> Im intested in artificial intelligence bla bla and i enjoy building agentic systems. </p>
+<p align="center">
+I'm interested in building AI systems as infrastructure rather than standalone applications.
+<br><br>
+Most of my work explores modular agentic architectures, local-first software, developer tooling, and the boundaries between AI models and the systems around them. I particularly enjoy designing software where models, interfaces, and providers can be replaced without rebuilding the underlying architecture.
+<br><br>
+Outside of AI infrastructure, I experiment with document engines, desktop applications, rendering, automation, and developer tools.
+</p>
+
 <h2 align="center">
   <a href="https://github.com/Brightwav3/Assistant-mark-I">Assistant mark I</a>
 </h2>
