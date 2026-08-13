@@ -64,7 +64,7 @@ The same principle carries into my other work: reusable engines, stable contract
 
 ---
 
-<h2 align="center">Design Principles</h2>
+## Design Principles
 
 - **Model-independent** — intelligence providers should be replaceable.
 - **Headless-first** — the system should exist independently of any GUI.
