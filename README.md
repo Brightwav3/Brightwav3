@@ -26,6 +26,7 @@ Outside of AI infrastructure, I experiment with document engines, desktop applic
 
 <h2 align="center">
   <a href="https://github.com/Brightwav3/Assistant-mark-I">Assistant mark I</a>
+  
 <p align="center">
 I'm currently experimenting with a modular architecture for a persistent personal AI system.
 <br><br>
