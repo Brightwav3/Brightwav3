@@ -87,6 +87,44 @@ The goal is to keep the surrounding system independent of any particular AI mode
 
 ---
 
+<h2 align="center">
+  <a href="https://github.com/Brightwav3/full-duplex-attempts">Full-Duplex Attempts</a>
+</h2>
+
+<p align="center">
+An atlas of my attempts at building a full-duplex voice system — one where the user and the assistant can both speak at once, and each keeps hearing the other.
+<br><br>
+It contains no code. Every attempt lives in its own repository. What lives here is the part that never survives inside a single project: what each attempt was trying, which half of the problem it solved, where it hit a wall, and what the wall was made of.
+</p>
+
+<p align="center">
+The central finding is that "full-duplex" describes three architectures, not two — and that conflating the middle one with the last makes an unreachable ceiling look like an unfinished integration.
+</p>
+
+<div align="center">
+
+| Generation | Shape | Turn detection |
+| --- | --- | --- |
+| 1 — Cascade | STT → chat → TTS | a silence timer in your code |
+| 2 — Turn-based native | one model, audio in and out | provider-side, still on silence |
+| 3 — Full-duplex | one model, continuous both ways | none — the model decides |
+
+</div>
+
+<p align="center">
+Two attempts are documented against five criteria: <a href="https://github.com/Brightwav3/Assistant-mark-I">Assistant Mark I</a>, which solved the media half and cannot act, and <a href="https://github.com/Brightwav3/voxtral-live">voxtral-live</a>, which solved the application half and cannot stop taking turns. They are complementary halves of one architecture rather than two failed systems.
+</p>
+
+<p align="center">
+Written under three rules: every architectural claim cites the file and construct it came from, every page names the date and commit it was read against, and nothing is vendored — links only.
+</p>
+
+<p align="center">
+  <strong>Some ceilings are in the model, not in the architecture.</strong>
+</p>
+
+---
+
 <h1 align="center">Other Featured Projects</h1>
 
 | Project                                                                                    | Description                                                                                                                      |
