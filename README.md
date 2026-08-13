@@ -26,13 +26,13 @@ Outside of AI infrastructure, I experiment with document engines, desktop applic
 
 <h2 align="center">
   <a href="https://github.com/Brightwav3/Assistant-mark-I">Assistant mark I</a>
-</h2>
-<p align="center"> Im currently experimentic with modular agentic architecture for a persistent personal ai system</p>
-
-<p align="center"> Instead of treating an assistant as a single application, this one separates capabilities into independent components with explicit contracts between them.</p>
-<p align="center"> Rather than building an assistant around one model or API, I'm interested in building the infrastructure that different generations of models can inhabit.
-
-<p align="center"> The same principle carries into my other work: reusable engines, stable contracts, headless operation, automation, and interfaces that remain replaceable.</p>
+<p align="center">
+I'm currently experimenting with a modular architecture for a persistent personal AI system.
+<br><br>
+Assistant Mark I separates intelligence, memory, speech, activation, devices, and other capabilities into independent components with explicit contracts between them.
+<br><br>
+The goal is to keep the surrounding system independent of any particular AI model or provider, allowing the models themselves to be replaced as the technology evolves.
+</p>
 
 > **Models change. Interfaces change. The system should survive both.**
 
