@@ -32,58 +32,75 @@ Outside of AI infrastructure, I experiment with document engines, desktop applic
 ---
 
 <h2 align="center">
-  <a href="https://github.com/Brightwav3/Assistant-mark-I">Assistant Mark I</a>
+  <a href="https://github.com/Brightwav3/Assistant-mark-II">Assistant M.A.R.K. II</a>
 </h2>
 
 <p align="center">
-I'm currently experimenting with a modular architecture for a persistent personal AI system.
+I'm building a headless, agent-first runtime for a persistent personal AI system.
 <br><br>
-Assistant Mark I separates intelligence, memory, speech, activation, devices, and other capabilities into independent components with explicit contracts between them.
+Assistant Mark II is the active successor to the frozen Mark I baseline. It composes independent cores for intelligence, memory, state, speech, activation, tools, devices, and echo cancellation through explicit contracts.
 <br><br>
-The goal is to keep the surrounding system independent of any particular AI model or provider, allowing the models themselves to be replaced as the technology evolves.
+The runtime is designed to keep memory, orchestration, tools, and device access under the assistant's control instead of coupling them to a single model, speech provider, or user interface.
+<br><br>
+Realtime voice is an active area of development, with deterministic runtime verification kept separate from hardware-dependent microphone, speaker, and acoustic-echo qualification.
 </p>
 
 <p align="center">
-  <strong>Models change. Interfaces change. The system should survive both.</strong>
+  <strong>The model may change. The runtime, boundaries, and ownership should endure.</strong>
 </p>
 
 ---
 
-```
-                         ┌────────────────────┐
-                         │     Assistant      │
-                         │      Runtime       │
-                         └─────────┬──────────┘
-                                   │
-          ┌────────────────────────┼────────────────────────┐
-          │                        │                        │
-          ▼                        ▼                        ▼
-   Intelligence Core         Memory / State           Speech System
-          │                                                │
-          │                                      ┌─────────┼─────────┐
-          │                                      │         │         │
-          ▼                                      ▼         ▼         ▼
-   Local / Cloud Models                          STT    Realtime     TTS
-          │
-          │
-          ├──────────────► Device Network
-          │
-          ├──────────────► Tools / Agents
-          │
-          └──────────────► External Systems
+```text
+                         ┌────────────────────────┐
+                         │  Assistant M.A.R.K. II │
+                         │    Composed Runtime    │
+                         └────────────┬───────────┘
+                                      │
+        ┌─────────────────────────────┼─────────────────────────────┐
+        │                             │                             │
+        ▼                             ▼                             ▼
+ Intelligence Core             Memory Core                    Speech System
+        │                       persistent memory              realtime sessions
+        │                             │                       STT / TTS / VAD
+        ▼                             ▼                             │
+ Local or Cloud Models       State Core / Events                    ▼
+                                      │                        AEC System
+                                      │                    echo cancellation
+        ┌─────────────────────────────┼─────────────────────────────┐
+        │                             │                             │
+        ▼                             ▼                             ▼
+  Tool System                 Device Network                 Activation Core
+  agents and actions          hardware boundaries             wake / trigger paths
+        │                             │                             │
+        └─────────────────────────────┼─────────────────────────────┘
+                                      ▼
+                              External Systems
 ```
 
 ---
 
 ## Design Principles
 
-* **Model-independent** — intelligence providers should be replaceable.
-* **Headless-first** — the system should exist independently of any GUI.
-* **Agent-first** — capabilities should be usable programmatically, not only through human interfaces.
-* **Local-first** — local execution and ownership are preferred where practical.
-* **Event-driven** — components communicate through explicit events and contracts.
-* **Persistent** — memory and state belong to the assistant, not to the model currently running it.
-* **Composable** — speech, activation, memory, intelligence, devices, and interfaces remain independent components.
+- **Model-independent** — providers and models should be replaceable without rewriting the runtime.
+- **Headless-first** — the assistant exists independently of a graphical interface.
+- **Agent-first** — capabilities are exposed through explicit tools and programmable contracts.
+- **Local-first** — local execution, ownership, and inspectability are preferred where practical.
+- **Persistent by design** — memory belongs to the assistant and survives model or session changes.
+- **Explicit state** — runtime state, persistent memory, and external side effects have separate ownership.
+- **Composable** — speech, activation, memory, intelligence, tools, devices, and interfaces remain independently testable.
+- **Provider-neutral** — external AI services are adapters, not the architecture.
+- **Hardware-aware** — microphone, speaker, realtime, and echo-cancellation behavior is qualified separately from deterministic software tests.
+- **Contract-driven** — components communicate through small, explicit interfaces instead of hidden coupling.
+
+## Hlavní změny oproti původní verzi:
+
+- odkazuje na aktivní `Assistant Mark II`, ne na zmrazený Mark I;
+- popisuje skutečný `assistant-runtime` a modulární core repozitáře;
+- přidává persistent memory, explicit state, tools, device network a AEC;
+- nepředstírá, že realtime voice nebo full-duplex audio jsou hotové bez hardwarové kvalifikace;
+- zachovává provider/model independence, ale popisuje ji praktičtěji;
+- rozlišuje deterministic CI od mikrofonu, reproduktoru a echo-cancellation testů.
 
 ---
 
