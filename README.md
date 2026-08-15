@@ -51,32 +51,9 @@ Realtime voice is an active area of development, with deterministic runtime veri
 
 ---
 
-```text
-                         ┌────────────────────────┐
-                         │  Assistant M.A.R.K. II │
-                         │    Composed Runtime    │
-                         └────────────┬───────────┘
-                                      │
-        ┌─────────────────────────────┼─────────────────────────────┐
-        │                             │                             │
-        ▼                             ▼                             ▼
- Intelligence Core             Memory Core                    Speech System
-        │                       persistent memory              realtime sessions
-        │                             │                       STT / TTS / VAD
-        ▼                             ▼                             │
- Local or Cloud Models       State Core / Events                    ▼
-                                      │                        AEC System
-                                      │                    echo cancellation
-        ┌─────────────────────────────┼─────────────────────────────┐
-        │                             │                             │
-        ▼                             ▼                             ▼
-  Tool System                 Device Network                 Activation Core
-  agents and actions          hardware boundaries             wake / trigger paths
-        │                             │                             │
-        └─────────────────────────────┼─────────────────────────────┘
-                                      ▼
-                              External Systems
-```
+<p align="center">
+  <img src="./docs/images/model.png" width="760" alt="Assistant M.A.R.K. II delegation architecture" />
+</p>
 
 ---
 
