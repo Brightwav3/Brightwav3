@@ -32,17 +32,17 @@ Outside of AI infrastructure, I experiment with document engines, desktop applic
 ---
 
 <h2 align="center">
-  <a href="https://github.com/Brightwav3/Assistant-mark-II">Assistant M.A.R.K. II</a>
+  <a href="https://github.com/Brightwav3/merely-a-responsive-kernel">Merely a Responsive Kernel</a>
 </h2>
 
 <p align="center">
-I'm building a headless, agent-first runtime for a persistent personal AI system.
+I'm building a headless, agent-first architecture for a persistent personal AI system.
 <br><br>
-Assistant Mark II is the active successor to the frozen Mark I baseline. It composes independent cores for intelligence, memory, state, speech, activation, tools, devices, and echo cancellation through explicit contracts.
+Merely a Responsive Kernel is the canonical project root for the M.A.R.K. lineage: a model-independent assistant architecture evolving across successive runtime generations.
 <br><br>
-The runtime is designed to keep memory, orchestration, tools, and device access under the assistant's control instead of coupling them to a single model, speech provider, or user interface.
+The current generation, <a href="https://github.com/Brightwav3/Assistant-mark-II">M.A.R.K. II</a>, composes independent cores for intelligence, memory, state, realtime speech, activation, tools, devices, runtime orchestration, and audio processing through explicit contracts.
 <br><br>
-Realtime voice is an active area of development, with deterministic runtime verification kept separate from hardware-dependent microphone, speaker, and acoustic-echo qualification.
+The system is designed so that models, providers, interfaces, and hardware-specific implementations can change without taking ownership of memory, state, tools, permissions, or the assistant lifecycle with them.
 </p>
 
 <p align="center">
@@ -52,32 +52,68 @@ Realtime voice is an active area of development, with deterministic runtime veri
 ---
 
 <p align="center">
-  <img src="./docs/images/model.png" width="760" alt="Assistant M.A.R.K. II delegation architecture" />
+  <img src="./docs/images/model.png" width="760" alt="M.A.R.K. delegated runtime architecture" />
 </p>
+
+---
+
+## M.A.R.K. Lineage
+
+M.A.R.K. I  
+Proof of Concept  
+↓  
+M.A.R.K. II  
+Active Runtime Generation  
+↓  
+M.A.R.K. III  
+Future Conversational Generation
+
+- **[M.A.R.K. I](https://github.com/Brightwav3/Assistant-mark-I)** — frozen proof of concept that established the modular assistant architecture.
+- **[M.A.R.K. II](https://github.com/Brightwav3/Assistant-mark-II)** — active development generation focused on capable realtime interaction, delegated intelligence, persistent memory, explicit state, deterministic tools, and increasingly robust runtime orchestration.
+- **M.A.R.K. III** — future generation intended for conversational architectures that move beyond current turn-based realtime model constraints.
+
+The full lineage, pinned generation snapshots, architecture notes, and public project site live in **[merely-a-responsive-kernel](https://github.com/Brightwav3/merely-a-responsive-kernel)**.
 
 ---
 
 ## Design Principles
 
-- **Model-independent** — providers and models should be replaceable without rewriting the runtime.
-- **Headless-first** — the assistant exists independently of a graphical interface.
-- **Agent-first** — capabilities are exposed through explicit tools and programmable contracts.
-- **Local-first** — local execution, ownership, and inspectability are preferred where practical.
-- **Persistent by design** — memory belongs to the assistant and survives model or session changes.
-- **Explicit state** — runtime state, persistent memory, and external side effects have separate ownership.
-- **Composable** — speech, activation, memory, intelligence, tools, devices, and interfaces remain independently testable.
-- **Provider-neutral** — external AI services are adapters, not the architecture.
-- **Hardware-aware** — microphone, speaker, realtime, and echo-cancellation behavior is qualified separately from deterministic software tests.
-- **Contract-driven** — components communicate through small, explicit interfaces instead of hidden coupling.
+- **Model-independent** — models and providers are replaceable implementation details, not architectural owners.
+- **Headless-first** — the assistant exists independently of any graphical interface.
+- **Agent-first** — capabilities are exposed through explicit tools, contracts, and programmable runtime boundaries.
+- **Persistent by design** — memory and durable assistant state survive individual models, sessions, and providers.
+- **Explicit ownership** — memory, runtime state, orchestration, permissions, tools, and external side effects have clearly separated owners.
+- **Composable** — intelligence, memory, state, realtime speech, activation, tools, devices, and runtime services remain independently testable and replaceable.
+- **Provider-neutral** — external AI and speech services are adapters behind stable interfaces.
+- **Local-first where practical** — local execution, inspectability, and user ownership are preferred when they do not compromise capability.
+- **Bounded execution** — tool use, delegated work, side effects, cancellation, and failure behavior should be explicit and controllable.
+- **Hardware-aware** — deterministic software verification is separated from microphone, speaker, latency, and acoustic-echo qualification.
+- **Contract-driven** — components communicate through small, explicit interfaces rather than hidden cross-module coupling.
+- **Evolutionary** — each M.A.R.K. generation may replace major implementation choices without requiring the whole assistant architecture to be rebuilt.
 
-## Hlavní změny oproti původní verzi:
+---
 
-- odkazuje na aktivní `Assistant Mark II`, ne na zmrazený Mark I;
-- popisuje skutečný `assistant-runtime` a modulární core repozitáře;
-- přidává persistent memory, explicit state, tools, device network a AEC;
-- nepředstírá, že realtime voice nebo full-duplex audio jsou hotové bez hardwarové kvalifikace;
-- zachovává provider/model independence, ale popisuje ji praktičtěji;
-- rozlišuje deterministic CI od mikrofonu, reproduktoru a echo-cancellation testů.
+## Current Focus
+
+M.A.R.K. II is the active implementation line.
+
+Its current direction includes:
+
+- realtime interaction through native voice-model sessions;
+- asynchronous delegation from the realtime layer into deeper reasoning;
+- persistent memory with controlled retrieval and provenance;
+- explicit runtime and world state;
+- bounded deterministic tool execution;
+- model and provider routing behind stable contracts;
+- device and host capability boundaries;
+- cancellation, recovery, correlation, and background completion;
+- context and orchestration infrastructure that remains independent of the active model;
+- audio coordination and acoustic echo cancellation;
+- architecture that can accommodate future full-duplex conversational models without redesigning the entire system.
+
+The goal is not to build around one model generation.
+
+It is to build a runtime capable of surviving the next one.
 
 ---
 
