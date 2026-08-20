@@ -172,30 +172,11 @@ Written under three rules: every architectural claim cites the file and construc
 <h1 align="center">At a Glance</h1>
 
 <p align="center">
+  <img src="./contrib-heatmap.svg" width="929" alt="Brightwav3 GitHub contribution activity" />
+</p>
+
+<p align="center">
   <img src="https://streak-stats.demolab.com?user=Brightwav3&theme=github-dark&hide_border=true" height="170" alt="GitHub Streak" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Brightwav3&theme=github_dark" height="170" alt="Languages by Repository" />
 </p>
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Brightwav3&theme=github_dark" width="100%" alt="Contribution Graph" />
-</p>
-
-<p align="center">
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/Brightwav3/Brightwav3/output/github-contribution-grid-snake-dark.svg"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/Brightwav3/Brightwav3/output/github-contribution-grid-snake.svg"
-    />
-    <img
-      alt="GitHub contribution snake"
-      src="https://raw.githubusercontent.com/Brightwav3/Brightwav3/output/github-contribution-grid-snake.svg"
-    />
-  </picture>
-</p>
-
--
-</p>
