@@ -19,6 +19,16 @@ Building modular AI systems, developer infrastructure, and local-first software 
 
 ---
 
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Brightwav3&theme=github-dark&hide_border=true" height="170" alt="GitHub Streak" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Brightwav3&theme=github_dark" height="170" alt="Languages by Repository" />
+
+<p align="center">
+  <img src="./contrib-heatmap.svg" width="929" alt="Brightwav3 GitHub contribution activity" />
+</p>
+
+---
+
 <h2 align="center">About</h2>
 
 <p align="center">
