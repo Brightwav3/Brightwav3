@@ -176,17 +176,3 @@ Written under three rules: every architectural claim cites the file and construc
 | **[Invoicee](https://github.com/Brightwav3/invoicee)**                                     | A prototype Czech invoicing application featuring a browser-based invoice editor.                                                |
 | **[personal-portfolio](https://github.com/Brightwav3/personal-portfolio)**                 | A literary-inspired portfolio focused on interaction, animation, and visual storytelling.                                        |
 | **[Coding-Agent-Theme](https://github.com/Brightwav3/Coding-Agent-Theme)**                 | A custom theme for coding-agent interfaces.                                                                                      |
-
----
-
-<h1 align="center">At a Glance</h1>
-
-<p align="center">
-  <img src="./contrib-heatmap.svg" width="929" alt="Brightwav3 GitHub contribution activity" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Brightwav3&theme=github-dark&hide_border=true" height="170" alt="GitHub Streak" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Brightwav3&theme=github_dark" height="170" alt="Languages by Repository" />
-</p>
-
