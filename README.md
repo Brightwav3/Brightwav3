@@ -1,10 +1,6 @@
 <h1 align="center">Brightwave</h1>
 
 <p align="center">
-Building modular AI systems, developer infrastructure, and local-first software designed to outlive any single model or interface.
-</p>
-
-<p align="center">
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
 <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
