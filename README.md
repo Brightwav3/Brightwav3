@@ -18,6 +18,7 @@
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Brightwav3&theme=github-dark&hide_border=true" height="170" alt="GitHub Streak" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Brightwav3&theme=github_dark" height="170" alt="Languages by Repository" />
+</p>
 
 <p align="center">
   <img src="./contrib-heatmap.svg" width="929" alt="Brightwav3 GitHub contribution activity" />
@@ -101,25 +102,14 @@ The full lineage, pinned generation snapshots, architecture notes, and public pr
 
 ## Current Focus
 
-M.A.R.K. II is the active implementation line.
+My current work spans several layers around persistent agents:
 
-Its current direction includes:
+- **Runtime — [M.A.R.K. II](https://github.com/Brightwav3/Assistant-mark-II)** — a model-independent personal assistant runtime with delegated intelligence, persistent memory, explicit state, realtime voice, and bounded tools.
+- **Policy — [.mark](https://github.com/Brightwav3/mark-lang)** — a policy and behaviour language where TypeScript implements capabilities and `.mark` controls when, why, and under what constraints an agent uses them.
+- **Presence — [Mote](https://github.com/Brightwav3/mote)** — a small, self-contained avatar for AI agents, available as one HTML file or an ES module.
+- **Agent interaction — [Sizel](https://github.com/Brightwav3/sizel)** — a demo electronics store and PC configurator that exposes browsing, comparison, cart, and build actions through 15 WebMCP tools. Its catalog is synthetic demo data.
 
-- realtime interaction through native voice-model sessions;
-- asynchronous delegation from the realtime layer into deeper reasoning;
-- persistent memory with controlled retrieval and provenance;
-- explicit runtime and world state;
-- bounded deterministic tool execution;
-- model and provider routing behind stable contracts;
-- device and host capability boundaries;
-- cancellation, recovery, correlation, and background completion;
-- context and orchestration infrastructure that remains independent of the active model;
-- audio coordination and acoustic echo cancellation;
-- architecture that can accommodate future full-duplex conversational models without redesigning the entire system.
-
-The goal is not to build around one model generation.
-
-It is to build a runtime capable of surviving the next one.
+The projects are separate, but they share the same design goal: models should be replaceable while state, policy, tools, and user-visible behaviour stay explicit.
 
 ---
 
@@ -148,7 +138,7 @@ The central finding is that "full-duplex" describes three architectures, not two
 </div>
 
 <p align="center">
-Two attempts are documented against five criteria: <a href="https://github.com/Brightwav3/Assistant-mark-I">Assistant Mark I</a>, which solved the media half and cannot act, and <a href="https://github.com/Brightwav3/voxtral-live">voxtral-live</a>, which solved the application half and cannot stop taking turns. They are complementary halves of one architecture rather than two failed systems.
+Three attempts are documented against five criteria: <a href="https://github.com/Brightwav3/Assistant-mark-I">Assistant Mark I</a>, which solved the native media path and bounded tools; <a href="https://github.com/Brightwav3/Assistant-mark-II">M.A.R.K. II</a>, which added delegated voice intelligence; and <a href="https://github.com/Brightwav3/voxtral-live">voxtral-live</a>, which explored cancellation, delegation, and echo work in a cascade. They are complementary approaches to one architecture rather than failed systems.
 </p>
 
 <p align="center">
@@ -161,14 +151,16 @@ Written under three rules: every architectural claim cites the file and construc
 
 ---
 
-<h1 align="center">Other Featured Projects</h1>
+<h2 align="center">Selected Projects</h2>
 
 | Project                                                                                    | Description                                                                                                                      |
 | ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
-| **[FreeDF](https://github.com/Brightwav3/custom-pdf-engine)** *(in development)*           | A local-first PDF engine built around immutable operations, stable contracts, and equivalent Python, HTTP, and JSON interfaces.  |
-| **[One Tool](https://github.com/Brightwav3/One-tool-to-rule-them-all)** *(in development)* | A desktop workspace for document conversion and editing designed around reusable backend services and agent-friendly automation. |
+| **[Sizel](https://github.com/Brightwav3/sizel)** *(current)*                               | A demo electronics store and PC configurator for shoppers and browser agents, with 15 WebMCP tools and synthetic catalog data. |
+| **[Mote](https://github.com/Brightwav3/mote)** *(current)*                                 | A small expressive avatar for AI agents, shipped as one self-contained HTML file or an ES module.                              |
+| **[.mark](https://github.com/Brightwav3/mark-lang)** *(current)*                           | A policy and behaviour language for persistent agents. TypeScript implements capabilities; `.mark` governs agent behaviour.     |
+| **[FreeDF](https://github.com/Brightwav3/custom-pdf-engine)**                              | A local-first PDF engine built around immutable operations, stable contracts, and equivalent Python, HTTP, and JSON interfaces. |
+| **[One Tool](https://github.com/Brightwav3/One-tool-to-rule-them-all)**                    | A local-first Windows desktop app for file conversion and document editing.                                                   |
 | **[semantic-backlinks](https://github.com/Brightwav3/semantic-backlinks)**                 | An Obsidian plugin for semantic note linking using local embeddings through Ollama / LM Studio or the OpenAI API.                |
-| **[liquid-metal-effect](https://github.com/Brightwav3/liquid-metal-effect)**               | A WebGL liquid-metal rendering experiment with a complete implementation and technical documentation.                            |
-| **[Invoicee](https://github.com/Brightwav3/invoicee)**                                     | A prototype Czech invoicing application featuring a browser-based invoice editor.                                                |
-| **[personal-portfolio](https://github.com/Brightwav3/personal-portfolio)**                 | A literary-inspired portfolio focused on interaction, animation, and visual storytelling.                                        |
+| **[advanced-bases](https://github.com/Brightwav3/advanced-bases)**                         | Notion-style Cards Compact, Feed, and Timeline views for Obsidian Bases.                                                       |
+| **[clipping-note](https://github.com/Brightwav3/clipping-note)**                           | An Obsidian plugin that creates a Clipping note from a template with one click.                                               |
 | **[Coding-Agent-Theme](https://github.com/Brightwav3/Coding-Agent-Theme)**                 | A custom theme for coding-agent interfaces.                                                                                      |
