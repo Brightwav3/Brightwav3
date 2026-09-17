@@ -42,4 +42,5 @@ Outside of AI infrastructure, I experiment with document engines, desktop applic
 
 | Project                                                                                    | Description                                                                                                                      |
 | ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
-| **[Sizel](https://github.com/Brightwav3/sizel)** *(current)*                               | A demo electronics store and PC configurator for shoppers and browser agents, with 15 WebMCP tools and synthetic catalog data. |
+| **[Sizel](https://github.com/Brightwav3/sizel)** | A demo electronics store and PC configurator for OpenAI WebMCP Challenge, with 15 WebMCP tools and synthetic catalog data. |
+| **[One tool to rule them all](https://github.com/Brightwav3/One-tool-to-rule-them-all)** **(Experiment)** | Universal conversion app for multiple file types |
