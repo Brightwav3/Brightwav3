@@ -29,6 +29,8 @@
 <h2 align="center">About</h2>
 
 <p align="center">
+I'm a 20-year-old college student who builds software between lectures and everything else.
+<br><br>
 I'm interested in building AI systems as infrastructure rather than standalone applications.
 <br><br>
 Most of my work explores modular agentic architectures, local-first software, developer tooling, and the boundaries between AI models and the systems around them. I particularly enjoy designing software where models, interfaces, and providers can be replaced without rebuilding the underlying architecture.
@@ -44,6 +46,15 @@ Outside of AI infrastructure, I experiment with document engines, desktop applic
 | ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
 | **[Sizel](https://github.com/Brightwav3/sizel)** | A demo electronics store and PC configurator for OpenAI WebMCP Challenge, with 15 WebMCP tools and synthetic catalog data. |
 | **[One tool to rule them all](https://github.com/Brightwav3/One-tool-to-rule-them-all)** **(Experiment)** | Universal conversion app for multiple file types |
-| **[Triple Tap](https://github.com/Brightwav3/triple-tap)** | Middle click functionality added for tirple tap in MacOS Native app |
-| **[WinV](https://github.com/Brightwav3/winv)** | Windows + V cliboard manager added in MacOS native app |
+| **[Triple Tap](https://github.com/Brightwav3/triple-tap)** | Native macOS app that adds middle click on a three-finger tap |
+| **[WinV](https://github.com/Brightwav3/winv)** | Windows + V–style clipboard manager as a native macOS app |
 
+---
+
+<h2 align="center">Support</h2>
+
+<p align="center">
+Everything I publish here is free and open source. If something I built saved you time, you can support me — it goes straight into more time for building.
+<br><br>
+<a href="https://buymeacoffee.com/brightwave"><img src="https://img.shields.io/badge/Buy_me_a_coffee-support-FFDD00?style=flat-square&logo=buymeacoffee&logoColor=black" alt="Buy me a coffee"></a>
+</p>
